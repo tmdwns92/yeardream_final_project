@@ -7,50 +7,94 @@
 </p>
 
 
+### [Programming Language] <br>
+<img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+<img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <br>
 
-### 1. 프로젝트 주제
+### [IDE & Environment]
+<img src="https://img.shields.io/badge/visual studio code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+<img src="https://img.shields.io/badge/anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white">
 
-- SI 기업에서 진행했던 폴리에스테르 염색 공정 최종 염색 색상 예측 모델 고도화
+### [Deep Learning]
+<img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
 
-### 2. 대회 기간
+### [협업 툴]
+
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
+<img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+<img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+
+
+
+
+
+
+
+
+# 포트폴리오란?
+- 프로젝트에 대한 상세한 설명
+- 업무 관련 경험을 보여주고, 설명하는 것
+    - 프로젝트의 배경 및 목적 등 아래 
+
+
+
+# 기업이 필요로 하는 부분이 내 포폴에서 잘 보여야 함 
+- 문제 정의를 명확하게 함
+- 비즈니스 및 사용자에 대한 이해 부족
+- 어떤 문제를 해결하려고 했는가
+    - 왜 이런 프로젝트를 기획하고 실행했는가?
+    - 이 프로젝트는 어떤 문제를 해결할 수 있는가
+- 이 문제는 왜 중요한가? 어떤 가치가 있는가
+    - 해결하면 시간 및 비용을 아낄 수 있다.
+
 
 - 프로젝트 기간 : 23.11.06 ~ 23.12.14
 
-### 3. 가설 도출
+### 1. 프로젝트 배경
+- 프로젝트 한 줄 설명
+    - 예시 : 
+- 프로젝트의 배경 또는 기획 의도
 
-- 리서치 및 SI 기업의 베이스라인을 실험함으로써 가설 도출
-    - 단일값만 가진 feature를 제외했을 때, 대부분이 제외되며 염료관련 feature들이 높은 영향력을 가짐.
-    - 염색농도를 결정하는데, 욕비(염색염료량/피염물의 중량)이 최종 색상 예측에 중요하게 작용
-    - 기본 베이스라인 LSTM 모델이 염료정보를 포함한 연관 공정들을 함께 layer로 묶어준 부분이 성능향상에 기여했을 거라고 추정하여 feature engineering에 반영
+- 개인 프로젝트 or 팀 프로젝트
 
-- 가설
-    - 단방향 시계열 특성이 크지 않고, 염색 Layer 내 염료 feature들의 영향력이 클 것이라는 가설 도출
+- 팀 프로젝트시 참여 인원 및 본인의 역할 
 
-### 4. 프로젝트 목적
+- 진행 기간 및 소속
 
-- 공정을 이해하고, 그에 맞는 feature engineering과 모델 개발
-- 베이스라인 모델의 색차(cie94) 0.9보다 좋은 성능의 모델 개발
-    - 기업이 제시한 색차 공식(Cie 94)은 섬유 및 그래픽 아트 산업 종사자들이 사용하는 공식으로 사람 눈에 보이는 색상과 유산한 좌표계인 CIE LAB 기반(L*, a*, b*)으로 구하는 색차이다.
 
-![Untitled](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/daff91cb-33ec-4143-ac57-3cdfa9182185)
+### 2. 기술 스택 및 데이터셋 설명
 
-### 5. 프로젝트 내용
+- 활용한 기술 스택
 
-- 팀원들끼리 R&R을 나눠 각 모델 별로 고도화 작업 진행
-    
-    ![Untitled](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/c92e132a-f807-4b26-ae5c-d5a7d4f25278)
-    
-- 기존 베이스모델의 공정 layer 순서를 바꿔가며, 단방향 시계열 특성이 강한지 확인
-    
-    ![Untitled](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/7765ff62-93b4-4702-9c7b-42fda6690014)
-    
-- TFT 모델을 맡아 단방향 시계열 특성이 약한다는 실험 결과에 따라 Varable Selection Network만 구성하여 실험
+- 데이터 출처, 용량, 특징 등
 
-![Untitled](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/b9fa029b-75e4-4b69-8d44-e08cd8bbfbb6)
+### 3. 프로젝트 진행 단계
 
-### 6. 결과
+- 4~5단계로 구분하여 설명
 
-- 주어진 metric인 색차(cie 94) 기준 성능 향상을 보임
-    - 베이스라인 모델(0.9) → TFT 변형 모델(0.68)
-- 염색공정 현업 기준에 따라, Test 데이터 셋에서 색차 1이 넘는 공정(row)의 갯수도 보조지표로 확인결과, 성능 향상을 보임
-    - 베이스라인 모델(82개) → TFT 변형 모델(47개)
+
+### 4. 프로젝트 세부 과정
+
+- 각 단계별 세부 진행 과정 설명
+
+### 5. 프로젝트 결과
+
+- 모델의 성능
+
+- 배포 링크
+
+### 6. 프로젝트 회고
+
+- 잘 한점
+
+- 한계점 및 개선 방안
+
+### 직무별 포트 폴리오 포인트 (Data Scientist)
+- 문제인식
+- 문제를 풀기 위한 기술 적용
+- 기술의 구현 수준
+- 성능
+

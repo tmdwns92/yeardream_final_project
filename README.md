@@ -1,10 +1,12 @@
 # yeardream_final_project
 
-# Copy 및 수정중입니다.
 
-# [23.11] 염색 공정 프로세스 이해를 통한 염색생상 예측 모델 개발
 
-![ekaterina-grosheva-wcdHwuFJfn4-unsplash.jpg](https://github.com/jun-suk/PJT_color_prediction/assets/73885257/6c1839cf-c3a0-4389-9336-cc35fe504afchttps://github.com/jun-suk/PJT_color_prediction/assets/73885257/c92e132a-f807-4b26-ae5c-d5a7d4f25278)
+<p>
+<img src="images/Cover.png">
+</p>
+
+
 
 ### 1. 프로젝트 주제
 

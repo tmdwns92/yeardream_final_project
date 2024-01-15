@@ -10,20 +10,26 @@
 
 일본의 배수기장 시설 내부에 이상징후를 포착 및 진전 여부를 탐지하는 모델 개발
 
+
+
 <br>
 
 ### 2. 프로젝트의 배경 및 기획 의도
  
 배수기장 시설 내부의 콘크리트 구조물이 시간이 지남에 따라 노후화되어 붕괴의 위험을 증가시키는 이상 징후들을 나타내고 있습니다. 이러한 구조물의 특성상 접근이 어렵고, 육안 검사나 초음파 장비를 사용한 전역적 탐색은 인력, 시간, 비용 면에서 많은 부담을 야기합니다. 이 문제를 해결하기 위해, 저희는 로보틱스 촬영과 컴퓨터 비전을 결합한 '스마트 솔루션'을 제안합니다. 이 솔루션을 통해 구조물의 상태를 효과적으로 촬영하고 얻은 영상을 통해서 손쉽게 이상 징후를 감지함으로써, 안전 점검의 효율성을 높이고 경제적인 이점을 제공할 것으로 예상되어 프로젝트를 기획하게 되었습니다.
 
-- 팀 프로젝트시 참여 인원 및 본인의 역할 
-    - YOLO 모델 구성 및 실험진행
+<!-- - 팀 프로젝트시 참여 인원 및 본인의 역할 
+    - YOLO 모델 구성 및 실험진행 -->
 
 </br>
 
-### 3. 문제 해결 방식
+### 3. 문제 해결 방식 접근 방식?
 
-배수기장 내부를 드론을 이용해 촬영 후 얻은 영상을 통해서 손쉽게 이상 징후를 감지 및 이전 시점의 영상과 진전 여부를 파악함으로써,
+<p>
+<img src="images/workflow.jpg">
+</p>
+
+배수기장 내부를 드론을 이용해 촬영
 
 - 1.로보틱스(드론) 이전 촬영 영상과 일정 시간이 지난 뒤의 촬영 영상(비교군)을 input으로 설정합니다.
 - 2.각 영상을 frame단위로 slicing하여 segmentation model의 입력값으로 넣습니다.
@@ -32,17 +38,30 @@
 
 </br>
 
-### 4. 기술 스택 및 데이터셋 설명
-
-- 활용한 기술 스택
-    - python, openCV
-
-- 데이터 출처, 용량, 특징 등
-    - 기업에서 드론으로 촬영한 배수기장 내부 촬영 영상, AI허브 데이터
+### 4. 데이터 출처 및 정의
 
 
+<table>
+  <tr>
+    <td><img src="images/sample_video.png" width="600" height="350"></td>
+    <td><img src="images/AI HUB.png" width="600" height="350"></td>
+  </tr>
+</table>
 
-### [Programming Language] <br>
+
+<!-- 
+<p>
+<img src="images/AI HUB.png">
+
+<img src="images/sample_video.png">
+</p> -->
+
+- 기업에서 제공해준 배수기장 내부를 드론으로 촬영한 영상 데이터
+- AI허브에서 제공하는 "건물 균열 탐지 이미지" 데이터 셋중 기업에서 탐지33를 원하는 이상징후(백태누수, 철근노출)에 대한 데이터
+
+
+
+### [Programming Skill] <br>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
 <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
 <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white">
@@ -66,19 +85,9 @@
 
 
 <br></br>
-# 3. 프로젝트 진행 단계
 
-<p>
-<img src="images/workflow.jpg">
-</p>
-
-- 4~5단계로 구분하여 설명
-   
 
 <br></br>
-# 4. 프로젝트 세부 과정
-
-- 각 단계별 세부 진행 과정 설명
 
 # 5. 프로젝트 결과
 
@@ -106,18 +115,16 @@
 - 한계점 및 개선 방안
     - 데이터의 
 
-### 직무별 포트 폴리오 포인트 (Data Scientist)
+<br><br>
+<br><br>
+<br><br>
+
+
+# 직무별 포트 폴리오 포인트 (Data Scientist)
 - 문제인식
 - 문제를 풀기 위한 기술 적용
 - 기술의 구현 수준
 - 성능
-
-
-
-
-
-
-
 
 
 # 포트폴리오란?

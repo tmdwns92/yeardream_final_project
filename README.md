@@ -60,17 +60,14 @@
 - AI허브에서 제공하는 "건물 균열 탐지 이미지" 데이터 셋중 기업에서 탐지33를 원하는 이상징후(백태누수, 철근노출)에 대한 데이터
 
 
+<div align=center><h1>📚 STACKS</h1></div>
 
-### [Programming Skill] <br>
+### [Programming Skill] 
 
-<table>
-  <tr>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-    <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
-    <td><img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"></td>
-    <td><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"></td>
-  </tr>
-</table>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
+  <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
 
 <br>
 
@@ -89,6 +86,7 @@
 <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
 <img src="https://img.shields.io/badge/google drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white">
 
+</div>
 
 <br></br>
 

@@ -77,8 +77,8 @@
 
 
 <div>
-    <img src="images/sample_video.png" width="500" height="400">
-    <img src="images/AI HUB.png" width="500" height="400">
+    <img src="images/sample_video.png" width="400" height="400">
+    <img src="images/AI HUB.png" width="400" height="400">
 </div>
 
 

@@ -1,4 +1,4 @@
-# yeardream_final_project
+# Year-Dream School : Final_Project
 
 
 <p>
@@ -6,7 +6,42 @@
 </p>
 
 
-### 1. 프로젝트 개요
+
+<div align=center><h2>📚 프로젝트 기술 스택</h2></div>
+
+<div align=center>
+
+### [Programming Skill] 
+
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
+  <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+  <br>
+
+### [IDE & Environment]
+<img src="https://img.shields.io/badge/visual studio code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+<img src="https://img.shields.io/badge/anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white">
+
+### [Deep Learning]
+<img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+
+### [Team Collaboration Tool]
+
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
+<img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+<img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+<img src="https://img.shields.io/badge/google drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white">
+
+</div>
+
+
+<br><br>
+
+
+
+# 1. 프로젝트 개요
 
 일본의 배수기장 시설 내부에 이상징후를 포착 및 진전 여부를 탐지하는 모델 개발
 
@@ -14,7 +49,7 @@
 
 <br>
 
-### 2. 프로젝트의 배경 및 기획 의도
+# 2. 프로젝트의 배경 및 기획 의도
  
 배수기장 시설 내부의 콘크리트 구조물이 시간이 지남에 따라 노후화되어 붕괴의 위험을 증가시키는 이상 징후들을 나타내고 있습니다. 이러한 구조물의 특성상 접근이 어렵고, 육안 검사나 초음파 장비를 사용한 전역적 탐색은 인력, 시간, 비용 면에서 많은 부담을 야기합니다. 이 문제를 해결하기 위해, 저희는 로보틱스 촬영과 컴퓨터 비전을 결합한 '스마트 솔루션'을 제안합니다. 이 솔루션을 통해 구조물의 상태를 효과적으로 촬영하고 얻은 영상을 통해서 손쉽게 이상 징후를 감지함으로써, 안전 점검의 효율성을 높이고 경제적인 이점을 제공할 것으로 예상되어 프로젝트를 기획하게 되었습니다.
 
@@ -23,7 +58,7 @@
 
 </br>
 
-### 3. 문제 해결 방식 접근 방식?
+# 3. 문제 해결 방식 접근 방식?
 
 <p>
 <img src="images/workflow.jpg">
@@ -38,7 +73,7 @@
 
 </br>
 
-### 4. 데이터 출처 및 정의
+# 4. 데이터 출처 및 정의
 
 
 <table>
@@ -60,32 +95,7 @@
 - AI허브에서 제공하는 "건물 균열 탐지 이미지" 데이터 셋중 기업에서 탐지33를 원하는 이상징후(백태누수, 철근노출)에 대한 데이터
 
 
-<div align=center><h1>📚 STACKS</h1></div>
 
-### [Programming Skill] 
-<div align=center>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
-  <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-  <br>
-
-### [IDE & Environment]
-<img src="https://img.shields.io/badge/visual studio code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
-<img src="https://img.shields.io/badge/anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white">
-
-### [Deep Learning]
-<img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
-
-### [협업 툴]
-
-<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
-<img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
-<img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
-<img src="https://img.shields.io/badge/google drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white">
-
-</div>
 
 
 

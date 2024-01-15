@@ -7,11 +7,11 @@
 
 
 
-<div align=center><h1>📚 프로젝트 기술 스택</h1></div>
+<div align=center><h2>📚 프로젝트 기술 스택</h2></div>
 
 <div align=center>
 
-### [Programming Skill] 
+#### [Programming Skill] 
 
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
@@ -19,14 +19,14 @@
   <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
   <br>
 
-### [IDE & Environment]
+#### [IDE & Environment]
 <img src="https://img.shields.io/badge/visual studio code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
 <img src="https://img.shields.io/badge/anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white">
 
-### [Deep Learning]
+#### [Deep Learning]
 <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
 
-### [Team Collaboration Tool]
+#### [Team Collaboration Tool]
 
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">

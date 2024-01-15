@@ -44,7 +44,7 @@
 <table>
   <tr>
     <td><img src="images/sample_video.png" width="600" height="350"></td>
-    <td><img src="images/AI HUB.png" width="600" height="350"></td>
+    <td><img src="images/AI HUB.png" width="600" height="400"></td>
   </tr>
 </table>
 
@@ -62,10 +62,16 @@
 
 
 ### [Programming Skill] <br>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
-<img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
-<img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+
+<table>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"></td>
+    <td><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"></td>
+  </tr>
+</table>
+
 <br>
 
 ### [IDE & Environment]

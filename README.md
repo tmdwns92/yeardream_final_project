@@ -7,7 +7,7 @@
 
 
 
-<div align=center><h2>📚 프로젝트 기술 스택</h2></div>
+<div align=center><h1>📚 프로젝트 기술 스택</h1></div>
 
 <div align=center>
 
@@ -76,12 +76,10 @@
 # 4. 데이터 출처 및 정의
 
 
-<table>
-  <tr>
-    <td><img src="images/sample_video.png" width="600" height="350"></td>
-    <td><img src="images/AI HUB.png" width="600" height="400"></td>
-  </tr>
-</table>
+<div>
+    <img src="images/sample_video.png" width="500" height="400">
+    <img src="images/AI HUB.png" width="500" height="400">
+</div>
 
 
 <!-- 

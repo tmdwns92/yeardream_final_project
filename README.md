@@ -66,10 +66,10 @@
 <img src="images/workflow.jpg">
 </p>
 
-> 1.로보틱스(드론) 이전 촬영 영상과 일정 시간이 지난 뒤의 촬영 영상(비교군)을 input으로 설정합니다.
-> 2.각 영상을 frame단위로 slicing하여 segmentation model의 입력값으로 넣습니다.
-> 3.탐지된 이상징후(철근노출,bleeding)현상의 frame을 matching합니다 (ImageRetrieval)
-> 4.매칭된 이상징후의 면적 비교를 통해 이상징후의 진전 여부를 판단합니다.
+> 1.로보틱스(드론) 이전 촬영 영상과 일정 시간이 지난 뒤의 촬영 영상(비교군)을 input으로 설정합니다. <br>
+> 2.각 영상을 frame단위로 slicing하여 segmentation model의 입력값으로 넣습니다. <br>
+> 3.탐지된 이상징후(철근노출,bleeding)현상의 frame을 matching합니다 (ImageRetrieval) <br>
+> 4.매칭된 이상징후의 면적 비교를 통해 이상징후의 진전 여부를 판단합니다. <br>
 
 </br>
 

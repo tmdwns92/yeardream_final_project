@@ -78,16 +78,12 @@
 
 <div>
     <img src="images/sample_video.png" width="400" height="400">
-    <img src="images/AI HUB.png" width="400" height="400">
+    <img src="images/AI HUB DataSet.png" width="400" height="400">
 </div>
 
+> (왼) 실제 배수기장 내부 사진 <br>
+> (우) AI HUB에서 제공된 데이터 중 터널 내 감지가 필요한 부분 분류 작업  
 
-<!-- 
-<p>
-<img src="images/AI HUB.png">
-
-<img src="images/sample_video.png">
-</p> -->
 
 
 # 5. 모델 선정
@@ -124,13 +120,14 @@
 - 잘 한점
 
 - 한계점 및 개선 방안
-    - 데이터의 
+    - 훈련 데이터의 부족과 리소스적인 한계를 보완하면, 더 정 학습하기
 
 <br><br>
 <br><br>
 <br><br>
 
----
+
+<!-- 
 
 # 직무별 포트 폴리오 포인트 (Data Scientist)
 - 문제인식
@@ -156,7 +153,7 @@
     - 해결하면 시간 및 비용을 아낄 수 있다.
 
 
-
+ -->
 
 
 

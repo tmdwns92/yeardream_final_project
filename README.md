@@ -85,16 +85,17 @@
 > (우) AI HUB에서 제공된 데이터 중 터널 내 감지가 필요한 부분 분류 작업  
 
 
+<br>
 
 # 5. 모델 선정
 
+<p>
+<img src="images/yolo_benchmark.jpeg">
+</p>
 
 
 
-<br></br>
-
-
-<br></br>
+<br>
 
 # 6. 프로젝트 결과
 
@@ -102,25 +103,19 @@
 <img src="images/report_sample.jpg">
 </p>
 
-- 모델의 성능
-
-<p>
-<img src="images/yolo_benchmark.jpeg">
-</p>
 
 
-- 배포 링크
-
-
-
-<br></br>
+<br>
 
 # 7. 프로젝트 회고
 
 - 잘 한점
 
 - 한계점 및 개선 방안
-    - 훈련 데이터의 부족과 리소스적인 한계를 보완하면, 더 정 학습하기
+    - 훈련 데이터의 부족으로 Image Segmentation 성능이 부족함.
+
+
+
 
 <br><br>
 <br><br>

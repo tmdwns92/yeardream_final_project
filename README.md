@@ -36,10 +36,39 @@
 
 </div>
 
+<br>
 
-<br><br>
+<!-- <!DOCTYPE html PUBLIC> -->
+
+## 역할
+
+<br>
+
+<head>
+<meta charset="EUC-KR">
+<title>테이블</title>
+</head>
+<body>
+    <table border="1">
+	<th>역할</th>
+	<th style="text-align:center">팀원</th>
+	<tr><!-- 첫번째 줄 시작 -->
+	    <td>팀원</td>
+        <td>
+         - 학습에 필요한 데이터셋 구축 <br>
+         - YOLOv8 모델 구성 및 실험 <br>
+        </td>
+	</tr><!-- 첫번째 줄 끝 -->
+    </table>
+</body>
 
 
+
+<br>
+
+---
+
+<br>
 
 # 1. 프로젝트 개요
 
@@ -78,11 +107,15 @@
 
 <div>
     <img src="images/sample_video.png" width="400" height="400">
-    <img src="images/AI HUB DataSet.png" width="400" height="400">
+    <img src="images/AI HUB.png" width="400" height="400">
 </div>
 
-> (왼) 실제 배수기장 내부 사진 <br>
-> (우) AI HUB에서 제공된 데이터 중 터널 내 감지가 필요한 부분 분류 작업  
+> (왼) 실제 배수기장 내부 촬영 영상 <br>
+> (우) AI HUB에서 제공된 데이터 셋
+
+<br>
+
+기업에서 제공받은 실제 배수기장 내부를 촬영한 동영상에서 철근 노출, 백태 누수(white bleeding, red bleeding)를 모델이 탐지할 수 있도록 만들기 위해 AI 허브에서 구축되어있는 "건물 균열 탐지 이미지" 데이터 셋중 백태누수와 철근노출 데이터셋을 다운 받았고 실제 배수기장 환경과 유사한 이미지만을 판별하고 작업할 Task에 맞게 라벨링을 진행하였습니다.
 
 
 <br>

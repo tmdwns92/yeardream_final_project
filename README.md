@@ -40,7 +40,9 @@
 
 <!-- <!DOCTYPE html PUBLIC> -->
 
-## 역할
+<!-- <div align=center><h2> 프로젝트 역할 </h2></div>
+
+<div align=center> -->
 
 <br>
 
@@ -117,8 +119,9 @@
     <img src="images/AI HUB.png" width="400" height="400">
 </div>
 
-> (왼) 실제 배수기장 내부 촬영 영상 <br>
-> (우) AI HUB에서 제공된 데이터 셋
+> (왼) 실제 배수기장 내부 촬영 영상,  (우) AI HUB에서 제공된 데이터 셋<br>
+> - 백태누수 (white bleeding) : 콘크리트 표면에 발생하는 백색의 얼룩 <br>
+> - 백태누수 (red bleeding) : 콘크리트 내부에 있는 철근이 녹슬어 표면에 녹슨물이 흘러나오는 현상
 
 <br>
 
@@ -130,9 +133,10 @@
 # 5. 모델 선정
 
 <p>
-<img src="images/yolo_benchmark.jpeg">
+<img src="images/Mask R-CNN vs YOLOv8.png">
 </p>
 
+Instance Segmentation Task에서 가장 보편적으로 사용되는 모델인 MASK R-CNN 모델이고 실험할 수 있는 MMDetection, Detectron2 프레임 워크에서 실험해볼 수 있어서 선택하였고 실시간 객체 탐지 및 성능 부분에서 많이 향상 되었다고 하는 YOLOv8 이렇게 총 3가지 프레임워크를 실험했고 
 
 
 <br>
@@ -152,7 +156,7 @@
 - 잘 한점
 잘한점에 대한 근거 
 
-AI허브 데이터 셋을 배수기장 실제 환경에 맞춰 분류 작업을 했고 그 결과 성능이 오랐다.
+AI허브 데이터 셋을 배수기장 실제 환경에 맞춰 분류 작업을 했고 그 결과 성능이 올랐다.
 
 - 한계점(아쉬운점)
     - 훈련 데이터의 부족으로 Image Segmentation 성능이 부족함.

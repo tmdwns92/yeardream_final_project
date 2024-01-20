@@ -46,7 +46,7 @@
 
 <head>
 <meta charset="EUC-KR">
-<title>테이블</title>
+<!-- <title>테이블</title> -->
 </head>
 <body>
     <table border="1">

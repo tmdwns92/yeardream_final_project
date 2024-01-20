@@ -46,6 +46,10 @@
 
 <br>
 
+<div align=center><h2>프로젝트 역할</h2></div>
+
+<div align=center>
+
 <head>
 <meta charset="EUC-KR">
 <!-- <title>테이블</title> -->
@@ -64,7 +68,7 @@
     </table>
 </body>
 
-
+</div>
 
 <br>
 
